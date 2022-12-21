@@ -22,7 +22,7 @@ import java.util.Date;
 @Builder//Permite hacer nuevas instancias de la entidad
 public class Product {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     //@Column(name = "id", nullable = false)
     private Long id;
 
